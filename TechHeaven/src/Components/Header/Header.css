@@ -1,0 +1,19 @@
+.header{
+    height: 34vw;
+    border-radius: 10px;
+    margin: 10px auto;
+    background: url('../../assets/Electronic Online Header-01.webp')no-repeat;
+    position: relative;
+    background-size: contain;
+    color: aliceblue;
+}
+.header-contents{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap:1.5vw;
+    max-width: 50%;
+    bottom: 10%;
+    left:6vw;
+}
