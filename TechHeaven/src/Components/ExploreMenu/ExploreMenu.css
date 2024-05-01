@@ -1,0 +1,35 @@
+.explore-menu{
+    display: flex;
+    flex-direction:column;
+    gap:20px;
+}
+.explore-menu h1{
+    margin: 50px 0 0 0;
+    color: black;
+    font-weight: 500;
+}
+.explore-menu-text{
+    max-width: 100%;
+    columns: black;
+}
+.explore-menu-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:30px;
+    text-align: center;
+    margin: 20px 0;
+    overflow-x:scroll;
+    -webkit-overflow-scrolling: touch;
+}
+.explore-menu-list::-webkit-scrollbar{
+    display: none;
+}
+.explore-menu-list-item img{
+    width: 8vw;
+    height: 15vh;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
