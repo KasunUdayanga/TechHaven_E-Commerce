@@ -1,11 +1,11 @@
 .navbar{
-    padding:20px 0px;
+    padding:20px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .navbar .logo{
-    width: 300px;
+    width: 200px;
 }
 .navbar .search_icon{
     width: 40px;

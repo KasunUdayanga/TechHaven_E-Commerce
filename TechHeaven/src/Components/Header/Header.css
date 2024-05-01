@@ -2,10 +2,10 @@
     height: 34vw;
     border-radius: 10px;
     margin: 10px auto;
-    background: url('../../assets/Electronic Online Header-01.webp')no-repeat;
+    background: url('../../assets/gst-electronics-discount.jpg');
     position: relative;
     background-size: contain;
-    color: aliceblue;
+    color: rgb(242, 242, 242);
 }
 .header-contents{
     position: absolute;
@@ -16,4 +16,8 @@
     max-width: 50%;
     bottom: 10%;
     left:6vw;
+}
+button{
+    border-radius: 3px;
+    padding: 5px 5px;
 }
