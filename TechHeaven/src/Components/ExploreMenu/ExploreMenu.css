@@ -32,4 +32,8 @@
     border-radius: 50%;
     transition: 0.5s;
 }
+.explore-menu-list-item .active{
+    border: 5px solid rgb(24, 23, 23) ;
+    padding:1px;
 
+}
