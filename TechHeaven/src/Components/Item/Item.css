@@ -1,0 +1,36 @@
+.Item{
+    width:100%;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px black;
+}
+.Item-image{
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+.Item-info{
+    padding: 20px;
+}
+.item-name-rating{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.item-name-rating p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.item-name-rating img{
+    width: 90px;
+}
+.item-desc{
+    color: rgb(69, 67, 67);
+    font-size: 12px;
+}
+.item-price{
+    font-size: 20px;
+    color: rgba(4, 160, 142, 0.99);
+    font-weight: 500;
+    margin: 10px 0px;
+}

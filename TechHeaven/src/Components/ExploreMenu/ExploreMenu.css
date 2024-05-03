@@ -37,3 +37,9 @@
     padding:1px;
 
 }
+.explore-menu hr{
+    margin: 10px 0px;
+    height: 1px;
+    background-color: #52515167;
+    border: none;
+}
