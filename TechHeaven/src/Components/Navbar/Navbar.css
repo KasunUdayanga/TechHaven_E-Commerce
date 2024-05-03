@@ -5,13 +5,14 @@
     align-items: center;
 }
 .navbar .logo{
-    width: 200px;
+    width: 30vh;
+    height: auto;
 }
 .navbar .search_icon{
-    width: 40px;
+    width: 5vh;
 }
 .navbar .busket{
-    width: 40px;
+    width: 5vh;
 }
 .navbar-menu{
     display: flex;
