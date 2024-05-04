@@ -10,7 +10,7 @@ const Item = ({id,name,price,description,image}) => {
       <div className="Item-info">
         <div className="item-name-rating">
           <p>{name}</p>
-          <img src={assets.rating1} alt="" />
+          <img src={assets.rating3} alt="" />
         </div>
         <p className='item-desc'>{description}</p>
         <p className="item-price">${price}</p>
