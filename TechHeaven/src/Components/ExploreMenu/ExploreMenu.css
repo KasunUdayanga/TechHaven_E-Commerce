@@ -33,7 +33,7 @@
     transition: 0.5s;
 }
 .explore-menu-list-item .active{
-    border: 5px solid rgb(24, 23, 23) ;
+    border: 5px solid rgb(16, 204, 229) ;
     padding:1px;
 
 }
@@ -42,4 +42,20 @@
     height: 1px;
     background-color: #52515167;
     border: none;
+}
+@media (max-width:1050px) {
+    .explore-menu-text{
+        max-width: 100%;
+        font-size: 14px;
+    }
+    .explore-menu-list-item{
+        font-size: 14px;
+    }
+    .explore-menu-list-item img{
+        width: 18vw;
+        height: 15vh;
+        cursor: pointer;
+        border-radius: 50%;
+        transition: 0.5s;
+    }
 }

@@ -21,6 +21,14 @@ import top_item5 from './Top_item/laptop.jpg'
 import top_item6 from './Top_item/camera.jpg'
 import top_item7 from './Top_item/monitor.png'
 import top_item8 from './Top_item/playstation.jpg'
+import plus_icon from './plus_icon.png'
+import remove_icon from './remove-button.png'
+import add_icon from './plus.png'
+import x from './Social/x.png'
+import linkdin from './Social/linkedin.png'
+import fb from './Social/facebook.png'
+import google from './android-app.png'
+import mac from './app-store.png'
 export const assets={
     logo,
     search_icon,
@@ -28,7 +36,15 @@ export const assets={
     rating1,
     rating3,
     rating4,
-    rating2
+    rating2,
+    plus_icon,
+    remove_icon,
+    add_icon,
+    x,
+    fb,
+    linkdin,
+    google,
+    mac
 }
 export const menu_list=[
     {
