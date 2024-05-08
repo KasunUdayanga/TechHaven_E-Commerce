@@ -29,6 +29,7 @@ import linkdin from './Social/linkedin.png'
 import fb from './Social/facebook.png'
 import google from './android-app.png'
 import mac from './app-store.png'
+import close from './close.png'
 export const assets={
     logo,
     search_icon,
@@ -44,7 +45,8 @@ export const assets={
     fb,
     linkdin,
     google,
-    mac
+    mac,
+    close
 }
 export const menu_list=[
     {
