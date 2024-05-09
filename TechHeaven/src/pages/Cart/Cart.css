@@ -81,6 +81,7 @@
     border: none;
     color: #fff;
     border-radius: 5px;
+    cursor: pointer;
 }
 @media (max-width:750px) {
     .cart-bottom{
