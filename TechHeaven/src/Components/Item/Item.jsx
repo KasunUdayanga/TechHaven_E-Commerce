@@ -1,7 +1,7 @@
 import React,{useContext} from 'react'
 import "./Item.css"
 import { assets } from '../../assets/assets'
-import { StoreContext } from '../../context/storeContext'
+import { StoreContext } from '../../context/StoreContext'
 const Item = ({id,name,price,description,image}) => {
 
   const{cartItems,addToCart,removeFromCart}=useContext(StoreContext);
