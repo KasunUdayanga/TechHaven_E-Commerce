@@ -48,8 +48,8 @@ const RemoveItem =async (req, res) => {
         fs.unlink(`uploads/${Item.image}`,()=>{})
         await itemModel.findByIdAndDelete(req.body.id);
         res.json({
-            success:false,
-            message:"Internal Server Error"
+            success:true,
+            message:"Item Removed successfully"
         })
     } catch (error) {
         console.log(error);

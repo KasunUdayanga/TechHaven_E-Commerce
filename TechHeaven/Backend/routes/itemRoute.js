@@ -16,7 +16,7 @@ const upload = multer({storage: storage})
 
 ItemRouter.post("/add",upload.single("image"),addItem)
 ItemRouter.get("/list",listItem)
-ItemRouter.get("/remove",RemoveItem)
+ItemRouter.post("/remove",RemoveItem)
 
 
 
