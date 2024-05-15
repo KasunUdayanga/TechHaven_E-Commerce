@@ -17,7 +17,7 @@ const addItem= async (req,res) => {
     try {
         await item.save();
         res.json({
-            success:true,message:"Item Added"
+            success:true,message:"Item Added successfully"
         })
     } catch (error) {
         console.log(error);
@@ -26,7 +26,7 @@ const addItem= async (req,res) => {
         })
     }
 }
-
+//list item
 const listItem=async(req, res)=> {
     try{
         const Item = await itemModel.find({});
@@ -41,7 +41,7 @@ const listItem=async(req, res)=> {
         })
     }
 }
-
+//Remove item
 const RemoveItem =async (req, res) => {
     try {
         const Item = await itemModel.findById(req.body.id);

@@ -2,6 +2,7 @@ import express from "express";
 import cors from "cors";
 import { connectDB } from "./config/db.js";
 import ItemRouter from "./routes/itemRoute.js";
+import UserRouter from "./routes/userRoute.js";
 
 
 const app=express();
@@ -11,8 +12,10 @@ app.use(express.json())
 app.use(cors())
 
 connectDB();
-
+//api endpoint  
 app.use("/api/item",ItemRouter)
+app.use("/images",express.static('uploads'))
+app.use("/api/user",UserRouter)
 
 app.get("/",(req,res)=>{
     res.send("API Working")

@@ -2,20 +2,20 @@ import React, { useEffect, useState } from "react";
 import "./Add.css";
 import { assets } from "../../assets/assets";
 import axios from "axios";
-const Add = () => {
-  const url = "http://localhost:5173";
+import { toast } from "react-toastify";
+const Add = ({url}) => {
   const [image, setImage] = useState(false);
   const [data, setData] = useState({
     name: "",
     description: "",
     category: "laptop",
-    price: "",
-  });
+    price: ""
+  })
   const onChangeHandler = (event) => {
     const name = event.target.name;
     const value = event.target.value;
     setData((data) => ({ ...data, [name]: value }));
-  };
+  }
   const onSubmitHandler = async (event) => {
     event.preventDefault();
     const formData = new FormData();
@@ -30,10 +30,12 @@ const Add = () => {
         name: "",
         description: "",
         category: "laptop",
-        price: "",
+        price: ""
       });
       setImage(false);
+      toast.success(response.data.message);
     } else {
+       toast.error(response.data.message);
     }
   };
 
@@ -61,13 +63,7 @@ const Add = () => {
         </div>
         <div className="add-product-name flex-col">
           <p>Product Name</p>
-          <input
-            onChange={onChangeHandler}
-            value={data.name}
-            type="text"
-            placeholder="Product Name"
-            required
-          />
+          <input type="text" placeholder="Product name" onChange={onChangeHandler} value={data.name} required name="name"/>
         </div>
         <div className="add-product-description flex-col">
           <p>Product Description</p>
@@ -78,7 +74,6 @@ const Add = () => {
             rows="6"
             placeholder="Write content here"
             required
-            id=""
           ></textarea>
           <div className="add-category-price">
             <div className="add-category flex-col">
