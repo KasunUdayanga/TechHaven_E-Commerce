@@ -3,6 +3,7 @@ import cors from "cors";
 import { connectDB } from "./config/db.js";
 import ItemRouter from "./routes/itemRoute.js";
 import UserRouter from "./routes/userRoute.js";
+import 'dotenv/config'
 
 
 const app=express();
