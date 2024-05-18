@@ -6,7 +6,7 @@ import { StoreContext } from "../../context/StoreContext";
 
 const Navbar = ({ setShowLogin }) => {
 
-  const [menu, setMenu] = useState("home");
+  const [item, setItem] = useState("home");
 
   const { getTotalCartAmount,token,setToken } = useContext(StoreContext);
   const navigate= useNavigate();
@@ -26,29 +26,29 @@ const Navbar = ({ setShowLogin }) => {
       <ul className="navbar-menu">
         <Link
           to="/"
-          onClick={() => setMenu("home")}
-          className={menu === "home" ? "active" : ""}
+          onClick={() => setItem("home")}
+          className={item === "home" ? "active" : ""}
         >
           Home
         </Link>
         <a
           href="#explore-menu"
-          onClick={() => setMenu("item")}
-          className={menu === "item" ? "active" : ""}
+          onClick={() => setItem("item")}
+          className={item === "item" ? "active" : ""}
         >
           Item
         </a>
         <a
           href="#app-download"
-          onClick={() => setMenu("mobile-app")}
-          className={menu === "mobile-app" ? "active" : ""}
+          onClick={() => setItem("mobile-app")}
+          className={item === "mobile-app" ? "active" : ""}
         >
           Mobile-app
         </a>
         <a
           href="#footer"
-          onClick={() => setMenu("contact us")}
-          className={menu === "contact us" ? "active" : ""}
+          onClick={() => setItem("contact us")}
+          className={item === "contact us" ? "active" : ""}
         >
           contact us
         </a>

@@ -46,7 +46,7 @@ const Add = ({url}) => {
     <div className="add">
       <form className="flex-col" onSubmit={onSubmitHandler}>
         <div className="add-img-upload flex-col">
-          <p>Upload Image</p>
+          <p>Upload Image <br />(* add 1:1 Ratio Image)</p>
           <label htmlFor="image">
             <img
               src={image ? URL.createObjectURL(image) : assets.upload}
@@ -60,6 +60,7 @@ const Add = ({url}) => {
             hidden
             required
           />
+          
         </div>
         <div className="add-product-name flex-col">
           <p>Product Name</p>

@@ -18,7 +18,7 @@
             return res.json({success: false, message:"Invalid Password"})
         }
         const token=createToken(user._id);
-        res.json({success: true, message: token})
+        res.json({success: true,token})
      } catch (error) {
         console.log(error);
         res.json({success: false, message:"Error"})
@@ -30,10 +30,10 @@
  //register user
 
  const registerUser = async (req, res) => {
-     const { name, email, password } = req.body;
+     const {name,email,password } = req.body;
      try {
         //check already registered
-        const exists = await userModel.findOne({ email});
+        const exists = await userModel.findOne({email});
         if (exists) {
             return res.json({success: false, message:"User already exists"})
         }
@@ -64,4 +64,4 @@
         res.json({success: false, message:"error user"})
      }
  }
- export  {registerUser,loginUser}
+ export  {loginUser,registerUser}

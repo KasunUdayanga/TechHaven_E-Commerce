@@ -24,4 +24,7 @@
     .list-table-format .title{
         display: none;
     }
+    .list-table-format img{
+        display: none;
+    }
 }

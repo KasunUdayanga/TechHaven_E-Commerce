@@ -12,12 +12,12 @@ const Loginpopup = ({setShowLogin}) => {
         email:"",
         password:""
     })
-    const onChangeHandler = (event) => {
+    const onChangeHandler = (event) => { 
         const name = event.target.name;
         const value = event.target.value;
-        setData((data) => ({...data, [name]: value }));
+        setData(data => ({...data, [name]: value }));
     }
-    const onLogin=async (event) => {
+    const onLogin = async (event) => {
         event.preventDefault();
         let newUrl =url; 
         if (currentState==="Login") {
@@ -30,7 +30,7 @@ const Loginpopup = ({setShowLogin}) => {
             setToken(response.data.token);
             localStorage.setItem('token',response.data.token);
             setShowLogin(false);
-        }else{
+         }else{
             alert(response.data.message)
         }
     }
@@ -44,7 +44,7 @@ const Loginpopup = ({setShowLogin}) => {
                 <img onClick={()=>setShowLogin(false)}src={assets.close} alt="" />
             </div> 
             <div className="login-popup-inputs">
-                {currentState==="Login"?<></>:<input name='name' onChange={onChangeHandler} value={data.name} type="text"placeholder='Your name' required />}
+                {currentState==='Login'?<></>:<input name='name' onChange={onChangeHandler} value={data.name} type="text"placeholder='Your name' required />}
                 <input  name='email' onChange={onChangeHandler} value={data.email}type="email"placeholder='Your email' required />
                 <input name='password' onChange={onChangeHandler} value={data.password} type="password"placeholder='Your password' required />
             </div>
