@@ -1,4 +1,7 @@
 import logo from './Tech.png'
+import bag from './bag.png'
+import logout from './logout.png'
+import profile from './user.png'
 import search_icon from './magnifying-glass.png'
 import busket from './shopping-online.png'
 import item1 from './list/speaker.png'
@@ -31,6 +34,8 @@ import google from './android-app.png'
 import mac from './app-store.png'
 import close from './close.png'
 export const assets={
+    bag,
+    logout,
     logo,
     search_icon,
     busket,
@@ -46,7 +51,8 @@ export const assets={
     linkdin,
     google,
     mac,
-    close
+    close,
+    profile
 }
 export const menu_list=[
     {

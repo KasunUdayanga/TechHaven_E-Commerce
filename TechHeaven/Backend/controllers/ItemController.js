@@ -9,10 +9,10 @@ const addItem= async (req,res) => {
 
     const item =new  itemModel({
         name:req.body.name,
-        image:image_filename,
         price:req.body.price,
         description:req.body.description,
-        category:req.body.category
+        category:req.body.category,
+        image:image_filename
     })
     try {
         await item.save();

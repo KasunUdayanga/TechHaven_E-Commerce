@@ -13,7 +13,7 @@ app.use(express.json())
 app.use(cors())
 
 connectDB();
-//api endpoint  
+//api endpoint
 app.use("/api/item",ItemRouter)
 app.use("/images",express.static('uploads'))
 app.use("/api/user",UserRouter)
