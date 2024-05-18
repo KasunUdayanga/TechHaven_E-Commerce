@@ -29,7 +29,7 @@ const Add = ({url}) => {
       setData({
         name: "",
         description: "",
-        category: "laptop",
+        category: "Laptop",
         price: ""
       });
       setImage(false);
@@ -79,11 +79,14 @@ const Add = ({url}) => {
             <div className="add-category flex-col">
               <p>Product Category</p>
               <select onChange={onChangeHandler} name="category" id="">
-                <option value="All">Headset</option>
-                <option value="Mobile">Mobile</option>
+                <option value="Speakers">Speakers</option>
+                <option value="Player">Player</option>
                 <option value="Laptop">Laptop</option>
-                <option value="Laptop">Speaker</option>
-                <option value="Laptop">Laptop</option>
+                <option value="Watch">Watch</option>
+                <option value="Glass">Glass</option>
+                <option value="Camera">Camera</option>
+                <option value="Bulb">Bulb</option>
+                <option value="Headset">Headset</option>
               </select>
             </div>
             <div className="add-price flex-col">
