@@ -67,7 +67,7 @@ const Add = ({url}) => {
           <input type="text" placeholder="Product name" onChange={onChangeHandler} value={data.name} required name="name"/>
         </div>
         <div className="add-product-description flex-col">
-          <p>Product Description</p>
+          <p>Product Description (*Add small description max 50 words)</p>
           <textarea
             onChange={onChangeHandler}
             value={data.description}
@@ -109,5 +109,4 @@ const Add = ({url}) => {
     </div>
   );
 };
-
 export default Add;
