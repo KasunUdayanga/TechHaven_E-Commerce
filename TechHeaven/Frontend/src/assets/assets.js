@@ -33,7 +33,9 @@ import fb from './Social/facebook.png'
 import google from './android-app.png'
 import mac from './app-store.png'
 import close from './close.png'
+import delivery from './delivery.png'
 export const assets={
+    delivery,
     bag,
     logout,
     logo,

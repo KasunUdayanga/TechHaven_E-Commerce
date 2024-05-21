@@ -6,4 +6,4 @@ GDGvQ6vTbTFOWQcX
 
 
 //errors 
-login function
+not sync data card
