@@ -78,4 +78,26 @@ const userOrder = async (req, res) => {
         res.json({success:false,message:"Internal Server Error"});
     }
 }
-export {placeOrder,verifyOrder,userOrder}
+
+// listing orders for admin panel
+const listOrders = async (req, res) => {
+    try {
+        const orders = await orderModel.find({})
+        res.json({success:true,data:orders});
+    } catch (error) {
+        console.log(error);
+        res.json({success:false,message:"Internal Server Error"});
+    }
+}
+//api for uptate order status
+const updatStatus =async (req, res) => {
+    try {
+        await orderModel.findByIdAndUpdate(req.body.orderId,{status:req.body.status})
+        res.json({success:true,message:"Status Updated"});
+    } catch (error) {
+        console.log(error);
+        res.json({success:false,message:"Internal Server Error"});
+    }
+}
+
+export {updatStatus,placeOrder,verifyOrder,userOrder,listOrders}

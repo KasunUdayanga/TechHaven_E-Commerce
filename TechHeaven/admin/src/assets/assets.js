@@ -4,6 +4,7 @@ import profile from './user.png'
 import order from './order.png'
 import upload from './upload.png'
 import list from './list.png'
+import delivery from './delivery.png'
 
 export const assets={
     add_image,
@@ -12,4 +13,5 @@ export const assets={
     order,
     upload,
     list,
+    delivery
 }
