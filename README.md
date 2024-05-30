@@ -89,11 +89,12 @@ The frontend is built with React.js and provides a seamless user experience for 
 
 The backend is powered by Node.js and Express.js, handling all the business logic, database interactions, and API endpoints.
 
-![Backend Architecture](TechHeaven/assets/Screenshot2024-05-30212611.png)
+
 
 ### Admin Panel
 
-The admin panel is a React.js application that allows administrators to manage products, orders, and users efficiently.
+The admin panel is a React.js application that allows administrators to manage products, orders, and users efficiently
+![Admin Panel](TechHeaven/assets/Screenshot2024-05-30212611.png)
 
 ## Contributing
 
