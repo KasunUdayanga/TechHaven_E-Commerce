@@ -1,4 +1,5 @@
-import React,{ useContext ,useState } from 'react'
+import React ,{ useContext ,useState,useEffect} from 'react'
+import { useNavigate } from 'react-router-dom';
 import './PlaceOrder.css'
 import { StoreContext } from '../../context/StoreContext';
 import axios from 'axios'
@@ -46,14 +47,16 @@ const placeOrder =async(event)=>{
 
   }
 
-          // const navigate = useNavigate();
-          // useEffect(() => {
-          //     if (!token) {
-          //       navigate('/cart')
-          //     }else if(getTotalCartAmount()===0){
-          //       navigate('/cart')
-          //     }
-          // },[token])
+    const navigate = useNavigate();
+      useEffect(() => {
+          if (!token) {
+            navigate('/cart')
+            alert("You must be logged in");
+          }else if(getTotalCartAmount()===0){
+            navigate('/cart')
+            alert("No item available");
+          }
+          },[token])
 
 
   return (
