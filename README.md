@@ -89,7 +89,7 @@ The frontend is built with React.js and provides a seamless user experience for 
 
 The backend is powered by Node.js and Express.js, handling all the business logic, database interactions, and API endpoints.
 
-![Backend Architecture](path/to/backend_diagram.png)
+![Backend Architecture](TechHeaven/assets/Screenshot 2024-05-30 212611.png)
 
 ### Admin Panel
 
