@@ -83,13 +83,13 @@ To set up the project locally, follow these steps:
 
 The frontend is built with React.js and provides a seamless user experience for browsing and purchasing products.
 
-![Frontend Interface](TechHeaven/assets/Screenshot 2024-05-30 212558.png)
+![Frontend Interface](TechHeaven/assets/Screenshot2024-05-30212558.png)
 
 ### Backend
 
 The backend is powered by Node.js and Express.js, handling all the business logic, database interactions, and API endpoints.
 
-![Backend Architecture](TechHeaven/assets/Screenshot 2024-05-30 212611.png)
+![Backend Architecture](TechHeaven/assets/Screenshot2024-05-30212611.png)
 
 ### Admin Panel
 
