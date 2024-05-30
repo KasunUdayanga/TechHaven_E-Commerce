@@ -1,6 +1,3 @@
-Certainly! Below is a sample README file for your TechHaven e-commerce website. This file will provide an overview of your project, installation instructions, usage guidelines, and a brief description of each component (frontend, backend, and admin panel). I've also included a placeholder for images of your web interface, which you can replace with actual screenshots.
-
----
 
 # TechHaven E-Commerce Website
 
@@ -36,7 +33,7 @@ TechHaven is a fully-featured e-commerce website where users can browse and purc
 
 - **Frontend:** HTML, CSS, JavaScript, React.js
 - **Backend:** Node.js, Express.js, MongoDB
-- **Admin Panel:** React.js, Redux
+- **Admin Panel:** React+ vite
 
 ## Installation
 
@@ -44,8 +41,8 @@ To set up the project locally, follow these steps:
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/yourusername/techhaven.git
-   cd techhaven
+   git clone https://github.com/KasunUdayanga/TechHaven.git
+   cd TechHaven
    ```
 
 2. **Install dependencies for both frontend and backend:**
@@ -67,12 +64,17 @@ To set up the project locally, follow these steps:
    - **Backend:**
      ```sh
      cd backend
-     npm run dev
+     npm run server
      ```
    - **Frontend:**
      ```sh
      cd frontend
-     npm start
+     npm run dev
+     ```
+     - **Admin Panel:**
+     ```sh
+     cd admin
+     npm run dev
      ```
 
 ## Usage
@@ -107,8 +109,6 @@ We welcome contributions to enhance the TechHaven platform. Please follow these 
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the ISC License. See the [LICENSE](LICENSE) file for details.
 
 ---
-
-Feel free to replace the placeholder paths with actual paths to the images you have. This README should provide a comprehensive guide for users and developers interacting with your TechHaven e-commerce platform.
