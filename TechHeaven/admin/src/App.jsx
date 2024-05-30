@@ -22,6 +22,7 @@ const App = () => {
           <Route path="/List" element={<List url={url}/>} />
           <Route path="/Orders" element={<Orders url={url}/>} />
         </Routes>
+        <h2>Welcome To Admin Panal</h2>
       </div>
     </div>
   );

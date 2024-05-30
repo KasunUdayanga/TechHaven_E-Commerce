@@ -18,7 +18,6 @@ import rating4 from './rating4.png'
 import rating2 from './rating2.png'
 import top_item1 from './Top_item/headset.jpg'
 import top_item2 from './Top_item/jbl.jpg'
-import top_item3 from './Top_item/ipod.jpg'
 import top_item4 from './Top_item/camara.jpg'
 import top_item5 from './Top_item/laptop.jpg'
 import top_item6 from './Top_item/camera.jpg'
@@ -110,7 +109,7 @@ export const item_list=[
     {
         _id: '3',
         name:"Apple iPod Classic 7th",
-        image: top_item3,
+        image: top_item2,
         price:199,
         description: "A brand-new, unused, unopened, undamaged item in its original packaging",
         category: "Ipod"
