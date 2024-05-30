@@ -1,7 +1,7 @@
 
 # TechHaven E-Commerce Website
 
-![TechHaven Logo](path/to/logo.png)
+![TechHaven Logo](TechHeaven/Frontend/src/assets/Tech.png)
 
 Welcome to TechHaven, your one-stop shop for the latest and greatest in tech products. This README will guide you through the structure, installation, and usage of the TechHaven e-commerce platform.
 
