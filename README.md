@@ -83,7 +83,7 @@ To set up the project locally, follow these steps:
 
 The frontend is built with React.js and provides a seamless user experience for browsing and purchasing products.
 
-![Frontend Interface](path/to/frontend_screenshot.png)
+![Frontend Interface](TechHeaven/assets/Screenshot 2024-05-30 212558.png)
 
 ### Backend
 
@@ -94,8 +94,6 @@ The backend is powered by Node.js and Express.js, handling all the business logi
 ### Admin Panel
 
 The admin panel is a React.js application that allows administrators to manage products, orders, and users efficiently.
-
-![Admin Panel Interface](path/to/admin_panel_screenshot.png)
 
 ## Contributing
 
