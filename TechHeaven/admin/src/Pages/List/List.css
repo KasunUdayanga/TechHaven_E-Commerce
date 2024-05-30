@@ -1,4 +1,5 @@
 .list-table-format{
+    border-radius: 5px;
     display: grid;
     grid-template-columns:.5fr 2fr 1fr 1fr .5fr ;
     align-items: center;
@@ -8,6 +9,7 @@
     font-size: 13px;
 }
 .list-table-format.title {
+    border-radius: 10px 10px 0px 0px;
     background-color: rgba(90, 135, 240, 0.321);
 }
 .list-table-format img{

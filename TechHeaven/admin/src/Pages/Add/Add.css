@@ -4,9 +4,11 @@
     margin-top: 50px;
     color: rgba(62, 66, 66, 0.818);
     font-size: 15px;
+    
 }
 .add form{
     gap: 20px; 
+    
 }
 .add-img-upload img{
     width: 100px;
@@ -15,22 +17,27 @@
 }
 .add-product-name , .add-product-description{
     width: max(40%,280px);
+    
 }
 .add-product-name input, .add-product-description textarea{
     padding: 10px;
+    border-radius: 10px;
 }
 .add-category-price{
     display: flex;
     gap: 30px;
+    border-radius: 10px;
 }
 .add-category-price select , .add-category-price input{
     max-width: 120px;
     padding: 10px;
+    border-radius: 10px;
 }
 .add-button{
     max-width: 120px;
     border: none;
     padding: 10px;
+    border-radius: 20px;
     background-color: black;
     color: white ;
     cursor: pointer;

@@ -9,6 +9,7 @@
 
 }
 .my-orders-order{
+    border-radius: 8px;
     display: grid;
     grid-template-columns: .5fr 2fr 1fr 1fr 2fr 1fr;
     align-items: center;
