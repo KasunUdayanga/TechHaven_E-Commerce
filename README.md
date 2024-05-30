@@ -71,7 +71,7 @@ To set up the project locally, follow these steps:
      cd frontend
      npm run dev
      ```
-     - **Admin Panel:**
+   - **Admin Panel:**
      ```sh
      cd admin
      npm run dev
