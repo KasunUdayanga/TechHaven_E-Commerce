@@ -56,8 +56,8 @@ To set up the project locally, follow these steps:
 3. **Set up environment variables:**
    Create a `.env` file in the root of the backend directory and add the following:
    ```
-   MONGO_URI=your_mongodb_connection_string
-   JWT_SECRET=your_jwt_secret
+   JWT_SECRET="random#secret"
+   STRIPE_SECRET_KEY="sk_test_51PIo5YP08CgrlweXgwO3q2HTgxBrpFWR9jQ6SxMcuA17NwmCHykVXgoxwziEVvfOCLRAPFOR2867XTbWNFzS5vjT00LUimaZHY"
    ```
 
 4. **Start the development servers:**
