@@ -57,7 +57,7 @@ To set up the project locally, follow these steps:
    Create a `.env` file in the root of the backend directory and add the following:
    ```
    JWT_SECRET="random#secret"
-   STRIPE_SECRET_KEY="sk_test_51PIo5YP08CgrlweXgwO3q2HTgxBrpFWR9jQ6SxMcuA17NwmCHykVXgoxwziEVvfOCLRAPFOR2867XTbWNFzS5vjT00LUimaZHY"
+   STRIPE_SECRET_KEY="your key"
    ```
 
 4. **Start the development servers:**
