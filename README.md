@@ -31,9 +31,8 @@ TechHaven is a fully-featured e-commerce website where users can browse and purc
 
 ## Technologies Used
 
-- **Frontend:** HTML, CSS, JavaScript, React.js
+- **Frontend:** HTML, CSS, JavaScript, React.js+Vite
 - **Backend:** Node.js, Express.js, MongoDB
-- **Admin Panel:** React+ vite
 
 ## Installation
 
