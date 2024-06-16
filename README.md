@@ -23,8 +23,7 @@ TechHaven is a fully-featured e-commerce website where users can browse and purc
 
 ## Features
 
-- User authentication and authorization
-- Product browsing and search functionality
+- Product browsing 
 - Shopping cart and checkout process
 - Order management
 - Admin dashboard for managing products, orders, and users
