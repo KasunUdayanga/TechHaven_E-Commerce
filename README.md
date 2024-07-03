@@ -30,8 +30,9 @@ TechHaven is a fully-featured e-commerce website where users can browse and purc
 - Admin dashboard for managing products, orders, and users
 
 ## Document In Project
-![SRS Document](TechHeaven/assets/SRS TechHeaven .pdf)
-![Project Proposal](TechHeaven/assets/Project Proposal.pdf)
+[SRS Document](TechHeaven/assets/SRS TechHeaven .pdf)
+[Project Proposal](TechHeaven/assets/Project Proposal.pdf)
+[here](https://github.com/KasunUdayanga)
 ## Technologies Used
 
 - **Frontend:** HTML, CSS, JavaScript, React.js+Vite
