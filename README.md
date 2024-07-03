@@ -8,6 +8,7 @@ Welcome to TechHaven, your one-stop shop for the latest and greatest in tech pro
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
+- [Document In Project](#document-in-project)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -27,6 +28,11 @@ TechHaven is a fully-featured e-commerce website where users can browse and purc
 - Shopping cart and checkout process
 - Order management
 - Admin dashboard for managing products, orders, and users
+
+## Document In Project
+[SRS Document](TechHeaven/assets/SRSTechHeaven.pdf)
+[Project Proposal](TechHeaven/assets/ProjectProposal.pdf)
+
 
 ## Technologies Used
 
