@@ -1,5 +1,5 @@
 
-#TechHaven E-Commerce Website
+# TechHaven E-Commerce Website
 
 ![TechHaven Logo](TechHeaven/Frontend/src/assets/Tech.png)
 
