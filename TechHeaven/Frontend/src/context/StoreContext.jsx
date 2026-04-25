@@ -5,7 +5,7 @@ export const StoreContext = createContext(null);
 
 const StoreContextProvider = (props) => {
   const [cartItems,setCartItems] = useState({});
-  const url="http://localhost:10000";
+  const url="https://techhaven-e-commerce.onrender.com";
   const [token,setToken] = useState("")
   const[item_list,setItem_list] = useState([])
 
