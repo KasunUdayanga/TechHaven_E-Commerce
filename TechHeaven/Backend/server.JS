@@ -9,7 +9,7 @@ import orderRouter from "./routes/orderRoute.js";
 
 
 const app=express();
-const port=4000;
+const port=10000;
 
 app.use(express.json())
 app.use(cors())
