@@ -1,5 +1,13 @@
-import mongoose from 'mongoose';
+import mongoose from "mongoose";
 
-export const connectDB =async()=>{
-    await mongoose.connect('mongodb+srv://udayangakasun696:t4pTAJdmVaGCaFj0@cluster0.vn1mgz6.mongodb.net/e-commerce').then(()=>{console.log('DB connected')});
-}
+export const connectDB = async () => {
+  const uri = process.env.URI;
+  if (!uri) {
+    throw new Error(
+      "Missing MongoDB connection string. Set URI in Backend/.env"
+    );
+  }
+
+  await mongoose.connect(uri);
+  console.log("DB connected");
+};
